@@ -1,0 +1,16 @@
+#logo {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.splash-logo{
+    width: 50rem;
+    height: 50rem;
+    filter: invert(49%) sepia(84%) saturate(5911%) hue-rotate(299deg) brightness(109%) contrast(101%);
+}

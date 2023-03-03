@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import HomePage from './components/homepage/HomePage'
+import SplashScreen from './components/splashscreen/SplashScreen';
 import './App.css';
 
+
 function App() {
+
+  const [loaded, setLoaded] = useState(false)
+
+  setTimeout(() => {
+    setLoaded(true)
+  }, 5100)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="App">
+      {
+        loaded ? <HomePage /> : <SplashScreen />
+      }
+    </section>
   );
 }
 
