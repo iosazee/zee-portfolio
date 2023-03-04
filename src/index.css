@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
 code {
@@ -17,9 +18,9 @@ code {
     monospace;
 }
 
-.container {
+/* .container {
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
   padding: 1rem;
-}
+} */
