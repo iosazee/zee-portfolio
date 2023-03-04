@@ -1,0 +1,96 @@
+
+[
+    {
+        "id":    1,
+        "title": "LittleLemon",
+        "desc": "A web app for the customers of a fictional restaurant that enables them to view the menu on offer and reserve a table",
+        "hasGit": true,
+        "gitLink": "https://github.com/iosazee/litlelemon",
+        "hasLink": true,
+        "link": "https://litlelemon.netlify.app/",
+        "onShowcase": true,
+        "showcaseID": 0,
+        "hasImg": true,
+        "img": "portfolio-1.png",
+        "techStack": ["React", "HTML", "CSS", "Vanilla JS"]
+    },
+
+    {
+        "id":   2,
+        "title": "World News Search",
+        "desc": "A news search service that allows users to see local news and country info when searching by country",
+        "hasGit": true,
+        "gitLink": "https://github.com/shaizai1/World-News-Search",
+        "hasLink": true,
+        "link": "https://shaizai1.github.io/World-News-Search/",
+        "onShowcase": true,
+        "showcaseID": 1,
+        "hasImg": true,
+        "img": "portfolio-2.png",
+        "techStack": ["Vanilla JavaScript", "Bootstrap", "CSS", "HTML"]
+    },
+
+    {
+        "id":   3,
+        "title": "Littlelemon API",
+        "desc": "Simple REST API that serves as the backend of a fictional restaurant and allow users of the app to perform different CRUD operations via HTTP requests to different endpoints.",
+        "hasGit": true,
+        "gitLink": "https://github.com/iosazee/backend-dev-capstone",
+        "hasLink": false,
+        "onShowcase": true,
+        "showcaseID": 2,
+        "hasImg": true,
+        "img": "portfolio-3.png",
+        "techStack": ["Django", "Python", "MySQL"]
+    },
+
+    {
+        "id":   4,
+        "title": "README Generator",
+        "desc": "This is a node.js application that enables developers to quickly generate a README file thereby saving them time for other development activities.",
+        "hasGit": true,
+        "gitLink": "https://github.com/iosazee/README-Generator",
+        "hasLink": false,
+        "onShowcase": false,
+        "hasImg": false,
+        "techStack": ["Node.JS", "Inquirer", "Screencastify"]
+
+    },
+
+    {
+        "id":   5,
+        "title": "Littlelemon mobile app",
+        "desc": "A mobile application built with react native that allows customers of a fictional restaurant to order food via the app.",
+        "hasGit": true,
+        "gitLink": "https://github.com/iosazee/littlelemon-mobile",
+        "hasLink": false,
+        "onShowcase": false,
+        "hasImg": false,
+        "techStack": ["React Native", "Expo Cli"]
+    },
+
+    {
+        "id":   6,
+        "title": "Shopping App",
+        "desc": "An ecommerce website which retrieves data from the backend, users are able to search for specific products, view details of the products and add products to cart",
+        "hasGit": true,
+        "gitLink": "https://github.com/iosazee/shopping-app-project",
+        "hasLink": true,
+        "link": "https://shopping-web-app.netlify.app/",
+        "onShowcase": false,
+        "hasImg": false,
+        "techStack": ["React", "HTML", "CSS"]
+    },
+
+    {
+        "id":   7,
+        "title": "Team Profile Generator",
+        "desc": "This is a command line application that takes user input and generates an html page based on that input.",
+        "hasGit": true,
+        "gitLink": "https://github.com/iosazee/Team-Profile-Generator",
+        "hasLink": false,
+        "onShowcase": false,
+        "hasImg": false,
+        "techStack": ["Node.JS", "Inquirer", "Jest"]
+    }
+]
