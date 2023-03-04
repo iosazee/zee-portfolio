@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import HomePage from './components/homepage/HomePage'
 import SplashScreen from './components/splashscreen/SplashScreen';
 import './App.css';
+import './assets/colors.css'
 
 
 function App() {
