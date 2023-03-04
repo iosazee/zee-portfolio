@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import './Hero.css'
 
 
+
 const Hero = () => {
     return (
         <section id="heroArea">
