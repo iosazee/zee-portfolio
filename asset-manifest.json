@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zee-portfolio/static/css/main.1f44d0ab.css",
-    "main.js": "/zee-portfolio/static/js/main.fb59dc8f.js",
+    "main.css": "/zee-portfolio/static/css/main.1cc10804.css",
+    "main.js": "/zee-portfolio/static/js/main.da5b8cad.js",
     "static/js/787.6c9eb26b.chunk.js": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js",
     "static/media/logo.svg": "/zee-portfolio/static/media/logo.8648d335a30247e9a5205aade12a9a2b.svg",
     "index.html": "/zee-portfolio/index.html",
-    "main.1f44d0ab.css.map": "/zee-portfolio/static/css/main.1f44d0ab.css.map",
-    "main.fb59dc8f.js.map": "/zee-portfolio/static/js/main.fb59dc8f.js.map",
+    "main.1cc10804.css.map": "/zee-portfolio/static/css/main.1cc10804.css.map",
+    "main.da5b8cad.js.map": "/zee-portfolio/static/js/main.da5b8cad.js.map",
     "787.6c9eb26b.chunk.js.map": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f44d0ab.css",
-    "static/js/main.fb59dc8f.js"
+    "static/css/main.1cc10804.css",
+    "static/js/main.da5b8cad.js"
   ]
 }
