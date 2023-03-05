@@ -1,5 +1,6 @@
 import './FeatureCard.css'
 
+
 const FeatureCard = ({img, title, desc, stack, gitLink, liveLink}) => {
 
 
@@ -20,7 +21,7 @@ const FeatureCard = ({img, title, desc, stack, gitLink, liveLink}) => {
                 </div>
                 <div className='projectLinks'>
                     <a href={gitLink} target="_blank" rel='noopener noreferrer' className='gitLink'>Github</a>
-                   <a href={liveLink} target="_blank" rel='noopener noreferrer' className='liveLink'>Live Page</a>
+                    <a href={liveLink} target="_blank" rel='noopener noreferrer' className='liveLink'>Live Page</a>
                 </div>
             </div>
         </section>
