@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import HomePage from './components/homepage/HomePage'
 import SplashScreen from './components/splashscreen/SplashScreen';
 import './App.css';
@@ -9,9 +9,15 @@ function App() {
 
   const [loaded, setLoaded] = useState(false)
 
-  setTimeout(() => {
-    setLoaded(true)
-  }, 5100)
+
+  useEffect(() => {
+    const timer =   setTimeout(() => {
+      setLoaded(true)
+    }, 5000);
+    return () => clearTimeout(timer)
+  }, [])
+
+
 
   return (
     <section className="App">
