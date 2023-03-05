@@ -8,11 +8,11 @@
         "gitLink": "https://github.com/iosazee/litlelemon",
         "hasLink": true,
         "link": "https://litlelemon.netlify.app/",
-        "onShowcase": true,
-        "showcaseID": 0,
+        "isFeatured": true,
+        "featureID": 0,
         "hasImg": true,
         "img": "portfolio-1.png",
-        "techStack": ["React", "HTML", "CSS", "Vanilla JS"]
+        "techStack": ["React", "HTML", "CSS", "JavaScript"]
     },
 
     {
@@ -23,11 +23,11 @@
         "gitLink": "https://github.com/shaizai1/World-News-Search",
         "hasLink": true,
         "link": "https://shaizai1.github.io/World-News-Search/",
-        "onShowcase": true,
-        "showcaseID": 1,
+        "isFeatured": true,
+        "featureID": 1,
         "hasImg": true,
         "img": "portfolio-2.png",
-        "techStack": ["Vanilla JavaScript", "Bootstrap", "CSS", "HTML"]
+        "techStack": ["JavaScript", "Bootstrap", "CSS", "HTML"]
     },
 
     {
@@ -37,8 +37,8 @@
         "hasGit": true,
         "gitLink": "https://github.com/iosazee/backend-dev-capstone",
         "hasLink": false,
-        "onShowcase": true,
-        "showcaseID": 2,
+        "isFeatured": true,
+        "featureID": 2,
         "hasImg": true,
         "img": "portfolio-3.png",
         "techStack": ["Django", "Python", "MySQL"]
@@ -51,7 +51,7 @@
         "hasGit": true,
         "gitLink": "https://github.com/iosazee/README-Generator",
         "hasLink": false,
-        "onShowcase": false,
+        "isFeatured": false,
         "hasImg": false,
         "techStack": ["Node.JS", "Inquirer", "Screencastify"]
 
@@ -64,7 +64,7 @@
         "hasGit": true,
         "gitLink": "https://github.com/iosazee/littlelemon-mobile",
         "hasLink": false,
-        "onShowcase": false,
+        "isFeatured": false,
         "hasImg": false,
         "techStack": ["React Native", "Expo Cli"]
     },
@@ -77,7 +77,7 @@
         "gitLink": "https://github.com/iosazee/shopping-app-project",
         "hasLink": true,
         "link": "https://shopping-web-app.netlify.app/",
-        "onShowcase": false,
+        "isFeatured": false,
         "hasImg": false,
         "techStack": ["React", "HTML", "CSS"]
     },
@@ -89,7 +89,7 @@
         "hasGit": true,
         "gitLink": "https://github.com/iosazee/Team-Profile-Generator",
         "hasLink": false,
-        "onShowcase": false,
+        "isFeatured": false,
         "hasImg": false,
         "techStack": ["Node.JS", "Inquirer", "Jest"]
     }

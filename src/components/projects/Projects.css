@@ -1,0 +1,27 @@
+#projects {
+    width: 100vw;
+    min-height: 100vh;
+    background: var(--tertiary-color);
+}
+
+.projectsHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7vh 0 1vh;
+    padding-top: 5vh;
+}
+
+.projectsHeader h2 {
+    font-size: 4em;
+    color: var(--section-title-color);
+    text-shadow: 5px 5px 10px #0000001a,
+               -5px -5px 10px #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .projectsHeader h2 {
+        font-size: 3em;
+    }
+}
