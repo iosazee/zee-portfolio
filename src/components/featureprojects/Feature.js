@@ -3,6 +3,8 @@ import './Feature.css'
 import FeatureCard from "../featurecard/FeatureCard"
 
 const Feature = () => {
+
+
     return (
         <section className="featureBox">
            {

@@ -1,0 +1,31 @@
+#moreBox {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(var(--tertiary-color) , var(--tertiary-color-7));
+    background: -moz-linear-gradient(var(--tertiary-color) , var(--tertiary-color-7));
+    background: -webkit-linear-gradient(var(--tertiary-color) , var(--tertiary-color-7));
+    background: -o-linear-gradient(var(--tertiary-color) , var(--tertiary-color-7));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+#moreStack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+    row-gap: 3vw;
+    -moz-column-gap: 3vw;
+    -webkit-column-gap: 3vw;
+    -moz-row-gap: 3vw;
+    -webkit-row-gap: 3vw;
+    padding: 5vh 0;
+}
+
+@media screen and (max-width: 768px) {
+    #moreStack {
+        grid-template-columns:  1fr;
+    }
+}

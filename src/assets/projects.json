@@ -52,7 +52,8 @@
         "gitLink": "https://github.com/iosazee/README-Generator",
         "hasLink": false,
         "isFeatured": false,
-        "hasImg": false,
+        "hasImg": true,
+        "img": "readme.png",
         "techStack": ["Node.JS", "Inquirer", "Screencastify"]
 
     },
@@ -65,7 +66,8 @@
         "gitLink": "https://github.com/iosazee/littlelemon-mobile",
         "hasLink": false,
         "isFeatured": false,
-        "hasImg": false,
+        "hasImg": true,
+        "img": "littlelemon-mobile.jpg",
         "techStack": ["React Native", "Expo Cli"]
     },
 
@@ -78,7 +80,8 @@
         "hasLink": true,
         "link": "https://shopping-web-app.netlify.app/",
         "isFeatured": false,
-        "hasImg": false,
+        "hasImg": true,
+        "img": "shopping-app.png",
         "techStack": ["React", "HTML", "CSS"]
     },
 
@@ -90,7 +93,8 @@
         "gitLink": "https://github.com/iosazee/Team-Profile-Generator",
         "hasLink": false,
         "isFeatured": false,
-        "hasImg": false,
+        "hasImg": true,
+        "img": "teamprofile.png",
         "techStack": ["Node.JS", "Inquirer", "Jest"]
     }
 ]
