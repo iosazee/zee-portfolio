@@ -1,0 +1,49 @@
+
+
+ <Navbar bg="light" expand="lg" className="justify-content-center">
+                <Container className="ms-5">
+                    <LinkContainer to="/">
+                        <Navbar.Brand>React-Bootstrap</Navbar.Brand>
+                    </LinkContainer>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav" className="ms-5">
+                        <Nav>
+                            <LinkContainer to="/about">
+                                <Nav.Link>AboutMe</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to="/projects">
+                                <Nav.Link>Projects</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to="/about">
+                                <Nav.Link>Certifications</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to="/about">
+                                <Nav.Link>ContactMe</Nav.Link>
+                            </LinkContainer>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+
+
+
+
+            <nav>
+            <ul className="menu">
+                <li className="logo-ctn">
+                    <img src={require("../../assets/logo.svg").default}
+                    alt="logo" className="logo"/>
+                </li>
+                <li className="item has-submenu">
+                    <Link tabIndex="0">About</Link>
+                    <ul className="submenu">
+                        <li className="subitem"><Link to="/Skills">Skills</Link></li>
+                        <li className="subitem"><Link to="/cert">Certifications</Link></li>
+                        <li className="subitem"><Link to="/recommend">Recommendations</Link></li>
+                    </ul>
+                </li>
+                <li className="item"><Link to="/projects">Projects</Link></li>
+                <li className="item"><Link to="/contact">Contact</Link></li>
+                <li className="toggle"><Link to=""> <MdOutlineMenu /> </Link></li>
+            </ul>
+           </nav>
