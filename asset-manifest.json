@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/zee-portfolio/static/css/main.a0427966.css",
-    "main.js": "/zee-portfolio/static/js/main.408f86de.js",
+    "main.css": "/zee-portfolio/static/css/main.918c42f3.css",
+    "main.js": "/zee-portfolio/static/js/main.a319e7aa.js",
     "static/js/787.6c9eb26b.chunk.js": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js",
+    "static/media/linux-cli.jpg": "/zee-portfolio/static/media/linux-cli.56ba10c592b581e377e3.jpg",
+    "static/media/version-control.jpg": "/zee-portfolio/static/media/version-control.f94db12dd1851cec7562.jpg",
     "static/media/readme.png": "/zee-portfolio/static/media/readme.bcb1f93f9b6c15e8e75d.png",
     "static/media/teamprofile.png": "/zee-portfolio/static/media/teamprofile.3861c1902bf3c93ffe8a.png",
     "static/media/zee.jpg": "/zee-portfolio/static/media/zee.b19e190213f202d0dedb.jpg",
     "static/media/littlelemon-mobile.jpg": "/zee-portfolio/static/media/littlelemon-mobile.0fd2d984439b9886c439.jpg",
     "static/media/shopping-app.png": "/zee-portfolio/static/media/shopping-app.0c6ff7ca346c4ad06073.png",
+    "static/media/scrum-master-cert.jpg": "/zee-portfolio/static/media/scrum-master-cert.1bb6061c896f18ca2c1c.jpg",
     "static/media/portfolio-2.png": "/zee-portfolio/static/media/portfolio-2.1cf934eb849db8e47e25.png",
+    "static/media/meta-be-cert.jpg": "/zee-portfolio/static/media/meta-be-cert.26163da8295b4989683a.jpg",
+    "static/media/meta-fe-cert.jpg": "/zee-portfolio/static/media/meta-fe-cert.8c62f65e2bef2f951dc2.jpg",
+    "static/media/meta-fs-cert.png": "/zee-portfolio/static/media/meta-fs-cert.660c395216497980b02d.png",
     "static/media/roboto-all-500-normal.woff": "/zee-portfolio/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/zee-portfolio/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/zee-portfolio/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "/zee-portfolio/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
     "static/media/logo.svg": "/zee-portfolio/static/media/logo.8648d335a30247e9a5205aade12a9a2b.svg",
+    "static/media/mimo-cert.jpg": "/zee-portfolio/static/media/mimo-cert.ae6bccc65a1edd912262.jpg",
     "static/media/portfolio-1.png": "/zee-portfolio/static/media/portfolio-1.e16232c0de7c91f127e4.png",
     "static/media/roboto-latin-500-normal.woff2": "/zee-portfolio/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/zee-portfolio/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -46,12 +53,12 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/zee-portfolio/index.html",
     "static/media/notes.txt": "/zee-portfolio/static/media/notes.31d6cfe0d16ae931b73c.txt",
-    "main.a0427966.css.map": "/zee-portfolio/static/css/main.a0427966.css.map",
-    "main.408f86de.js.map": "/zee-portfolio/static/js/main.408f86de.js.map",
+    "main.918c42f3.css.map": "/zee-portfolio/static/css/main.918c42f3.css.map",
+    "main.a319e7aa.js.map": "/zee-portfolio/static/js/main.a319e7aa.js.map",
     "787.6c9eb26b.chunk.js.map": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0427966.css",
-    "static/js/main.408f86de.js"
+    "static/css/main.918c42f3.css",
+    "static/js/main.a319e7aa.js"
   ]
 }
