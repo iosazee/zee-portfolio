@@ -11,10 +11,8 @@ const Header = () => {
 
     return (
            <nav className="navigation">
-                <Link to="/">
                     <img src={require("../../assets/logo.svg").default}
                     alt="logo" className="logo"/>
-                </Link>
                 <button className="hamburger" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>
                     <MdOutlineMenu />
 
