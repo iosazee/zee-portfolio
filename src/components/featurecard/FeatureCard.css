@@ -11,7 +11,8 @@
 }
 
 .featureImg {
-    width: 60%;
+    width: 80%;
+
     object-fit: cover;
 }
 

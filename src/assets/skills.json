@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "Front-End Skills",
+        "subTitle": "Languages & Certifications",
+        "skillsList": ["JavaScript ES6+", "HTML5", "CSS3", "React JS", "Bootstrap", "MaterialUI", "JQuery", "UX/UI Design"],
+        "certifications": "meta-fe-cert.jpg"
+    },
+
+    {
+        "id": 2,
+        "title": "Back-End Skills",
+        "subTitle": "Languages, Tools & Certifications",
+        "skillsList": ["Python", "Node JS", "SQL", "RESTful APIs", "Django Framework", "Version Control", "Linux CLI"],
+        "certifications": "meta-be-cert.jpg"
+    },
+
+    {
+        "id": 3,
+        "title": "Agile Methodologies",
+        "subTitle": "and Frameworks",
+        "skillsList": ["Scrum", "TDD", "BDD", "XP"],
+        "certifications":"scrum-master-cert.jpg"
+    }
+]

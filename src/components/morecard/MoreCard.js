@@ -23,9 +23,7 @@ const MoreCard = ({img, title, desc, gitLink, liveLink, stack}) => {
                 <Typography variant="body2" color="--secondary-color-4">
                     {desc}
                 </Typography>
-                <Typography variant="body2" component="span">
                     {stack}
-                </Typography>
             </CardContent>
             <CardActions>
                 <Link href={gitLink} color="inherit">

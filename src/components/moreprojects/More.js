@@ -1,5 +1,6 @@
 import projects from "../../assets/projects.json"
 import './More.css'
+import Typography from '@mui/material/Typography';
 import MoreCard from "../morecard/MoreCard"
 
 
@@ -19,7 +20,7 @@ const More = () => {
                                 desc={item.desc}
                                 gitLink={item.gitLink}
                                 liveLink={item.liveLink}
-                                stack={item.techStack}
+                                stack={item.techStack.map((elm, index) =>  <Typography variant="body2" component="span" key={index}> {elm}  </Typography>)}
                              />
                         )
                     })

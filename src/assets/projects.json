@@ -18,7 +18,7 @@
     {
         "id":   2,
         "title": "World News Search",
-        "desc": "A news search service that allows users to see local news and country info when searching by country",
+        "desc": "A news search service that allows users to see local news and country info when searching by country. This was a group project and I was one of four contributors. We worked in an agile way to deliver the project in a single sprint.",
         "hasGit": true,
         "gitLink": "https://github.com/shaizai1/World-News-Search",
         "hasLink": true,

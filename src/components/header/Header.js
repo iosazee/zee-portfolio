@@ -19,10 +19,11 @@ const Header = () => {
                 </button>
                 <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
                     <ul>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        <li><Link to="/resume">Resume</Link></li>
+                        <li><Link to="/zee-portfolio">Home</Link></li>
+                        <li><Link to="/zee-portfolio/projects">Projects</Link></li>
+                        <li><Link to="/zee-portfolio/skills">Skills</Link></li>
+                        <li><Link to="/zee-portfolio/contact">Contact</Link></li>
+                        <li><Link to="/zee-portfolio/resume">Resume</Link></li>
                     </ul>
 
                 </div>
