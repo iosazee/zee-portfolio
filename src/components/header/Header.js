@@ -2,6 +2,7 @@ import { useState } from "react";
 // import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import {MdOutlineMenu} from 'react-icons/md'
+import resume from '../../assets/documents/resume.pdf'
 
 import './Header.css'
 
@@ -23,7 +24,8 @@ const Header = () => {
                         <li><Link to="/zee-portfolio/projects">Projects</Link></li>
                         <li><Link to="/zee-portfolio/skills">Skills</Link></li>
                         <li><Link to="/zee-portfolio/contact">Contact</Link></li>
-                        <li><Link to="/zee-portfolio/resume">Resume</Link></li>
+                        <li><a href={resume}  target="_blank" rel="noopener noreferrer">Resume</a>
+                        </li>
                     </ul>
 
                 </div>
