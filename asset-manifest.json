@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zee-portfolio/static/css/main.918c42f3.css",
-    "main.js": "/zee-portfolio/static/js/main.a319e7aa.js",
+    "main.css": "/zee-portfolio/static/css/main.b40f3ca5.css",
+    "main.js": "/zee-portfolio/static/js/main.9255e7b5.js",
     "static/js/787.6c9eb26b.chunk.js": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js",
     "static/media/linux-cli.jpg": "/zee-portfolio/static/media/linux-cli.56ba10c592b581e377e3.jpg",
     "static/media/version-control.jpg": "/zee-portfolio/static/media/version-control.f94db12dd1851cec7562.jpg",
@@ -47,18 +47,18 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/zee-portfolio/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-vietnamese-700-normal.woff2": "/zee-portfolio/static/media/roboto-vietnamese-700-normal.3425a701027d0699e369.woff2",
     "static/media/roboto-vietnamese-300-normal.woff2": "/zee-portfolio/static/media/roboto-vietnamese-300-normal.32fc45a3d1e8ea11fabc.woff2",
+    "static/media/notes.txt": "/zee-portfolio/static/media/notes.bc89b87d0f679fa39b6d.txt",
     "static/media/roboto-greek-ext-500-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-500-normal.6fb9cffb1d3e72bf9293.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-300-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/zee-portfolio/index.html",
-    "static/media/notes.txt": "/zee-portfolio/static/media/notes.31d6cfe0d16ae931b73c.txt",
-    "main.918c42f3.css.map": "/zee-portfolio/static/css/main.918c42f3.css.map",
-    "main.a319e7aa.js.map": "/zee-portfolio/static/js/main.a319e7aa.js.map",
+    "main.b40f3ca5.css.map": "/zee-portfolio/static/css/main.b40f3ca5.css.map",
+    "main.9255e7b5.js.map": "/zee-portfolio/static/js/main.9255e7b5.js.map",
     "787.6c9eb26b.chunk.js.map": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.918c42f3.css",
-    "static/js/main.a319e7aa.js"
+    "static/css/main.b40f3ca5.css",
+    "static/js/main.9255e7b5.js"
   ]
 }
