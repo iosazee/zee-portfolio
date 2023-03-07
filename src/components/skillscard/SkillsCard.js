@@ -31,7 +31,7 @@ const SkillsCard = ({img, title, skills, subTitle}) => {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, backgroundColor: "#FDFFF5" }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="skills">
@@ -41,7 +41,7 @@ const SkillsCard = ({img, title, skills, subTitle}) => {
         title={title}
         subheader={subTitle}
       />
-      <CardContent>
+      <CardContent >
                 {skills}
       </CardContent>
       <CardActions disableSpacing>
