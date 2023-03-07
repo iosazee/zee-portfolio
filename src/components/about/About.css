@@ -51,6 +51,7 @@
 
 #aboutMe-quote {
     margin-top: 2vh;
+    margin-bottom: 1vh;
     font-size: 1.4em;
     display: flex;
     flex-direction: column;

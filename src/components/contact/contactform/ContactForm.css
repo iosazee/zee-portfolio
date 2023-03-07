@@ -38,8 +38,12 @@ label {
     margin-left: 24em;
   }
 
-  .submitBtn:active {
+.submitBtn:hover {
     background-color: var(--secondary-color);
+}
+
+.submitBtn:active {
+    background-color: var(--bg-color);
   }
 
   /* Floating column for labels: 25% width */

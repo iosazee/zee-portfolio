@@ -9,7 +9,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 75px;
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 .skills-title {
@@ -17,13 +18,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .skills-title h2 {
     font-size: 4em;
     color: var(--tertiary-color-10);
-    text-shadow: 5px 5px 10px #0000001a, 
+    text-shadow: 5px 5px 10px #0000001a,
                -5px -5px 10px #ffffff;
 }
 

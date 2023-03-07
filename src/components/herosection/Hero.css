@@ -48,7 +48,7 @@ h1, h2 {
 }
 
 .alternateFont {
-    color: var(--bg-color);
+    color: var(--secondary-color-2);
 }
 
 .getInTouch-Btn {
@@ -63,7 +63,7 @@ h1, h2 {
 .getInTouch-Btn:hover {
     color: var(--primary-color-2);
     background: var(--secondary-color-5);
-    border-bottom: 3px solid var(--secondary-color-4); 
+    border-bottom: 3px solid var(--secondary-color-4);
 }
 
 .getInTouch-Btn:focus {
@@ -73,7 +73,7 @@ h1, h2 {
 .getInTouch-Btn:active {
     margin-top: 2px;
     background: var(--secondary-color-6);
-    border-bottom: 1px solid var(--secondary-color-7); 
+    border-bottom: 1px solid var(--secondary-color-7);
     transform: translateY(2px);
     -moz-transform: translateY(2px);
     -webkit-transform: translateY(2px);
@@ -82,6 +82,11 @@ h1, h2 {
 
 
 @media screen and (max-width: 768px) {
+
+    #heroArea {
+        height: 60vh;
+    }
+
     .heroContainer {
         margin-left: 2rem;
     }
