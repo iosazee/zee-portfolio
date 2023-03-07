@@ -15,13 +15,13 @@ Check out the live site at [Zee Portfolio](https://bit.ly/zeemudia)
 * Firebase
 
 ## License
-Source code is licensed under the ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg). 
-Read the fine print of [MIT license](./license)
-Contents of the site are &copy; 2023 Zee Mudia. All righrs reserved.
+* Source code is licensed under the ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg).
+* Read the fine print of [MIT license](./license)
+* Contents of the site are &copy; 2023 Zee Mudia. All righrs reserved.
 
 
 ## Questions
 
-If you have any questions you can contact me at [this email]](iosazee1@gmail.com).
+If you have any questions you can contact me at [this email](iosazee1@gmail.com).
 
 You can see more of my work at [my github's profile](https://github.com/iosazee).
