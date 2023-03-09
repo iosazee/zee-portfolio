@@ -1,24 +1,11 @@
 /* Basic Styling */
 
-.navigation {
-    height: 120px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 0.5rem 0rem;
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-    margin-bottom: 1rem;
-}
-
-
 .logo {
     filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(30deg) brightness(116%) contrast(102%);
-    width: 8rem;
+    width: 4rem;
     margin-left: 8rem;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
+    align-self: center !important;
 }
 
 
@@ -27,92 +14,15 @@
     filter: invert(73%) sepia(97%) saturate(2294%) hue-rotate(2deg) brightness(106%) contrast(98%);
 }
 
-.navigation-menu {
-    margin-left: auto;
-}
-
-.navigation-menu ul {
-    display: flex;
-    padding: 0;
-}
-
-.navigation-menu li {
-    list-style-type: none;
-    margin: 0 4rem;
-}
-
-.navigation-menu li a {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    color: var(--secondary-color);
-    font-size: 18px;
-}
-
-.navigation-menu li a:hover {
-    color: var(--tertiary-color);
-}
-
-.hamburger {
-    border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
-    background-color: #283b8b;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translateY(-50%);
-    display: none;
-}
-
-.hamburger:hover{
-    background-color: #2642af;
-}
 
 /* Styling for mobile screens */
 
 @media screen and (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
 
     .logo{
         margin-left: 2rem;
     }
 
-    .navigation-menu ul {
-        display: none;
-        position: absolute;
-        top: 120px;
-        left: 0;
-        flex-direction: column;
-        width: 100%;
-        height: calc(100vh - 77px);
-        background-color: var(--tertiary-color-2);
-        border-top: 1px solid #000;
-    }
-
-    .navigation-menu li {
-        text-align: center;
-        margin: 0;
-    }
-
-    .navigation-menu li a {
-        color: #000;
-        width: 100%;
-        padding: 1.5rem 0;
-    }
-
-    .navigation-menu li:hover{
-        background-color: var(--secondary-color-2);
-    }
-
-    .navigation-menu.expanded ul {
-        display: block;
-    }
 
 }
 
