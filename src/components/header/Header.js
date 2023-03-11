@@ -86,7 +86,7 @@ function Header() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon style={{color: "var(--secondary-color)"}} />
             </IconButton>
             <Menu
               id="menu-appbar"
