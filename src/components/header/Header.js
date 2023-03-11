@@ -110,7 +110,7 @@ function Header() {
                 <MenuItem key={page.id} onClick={handleCloseNavMenu} sx={{
                     textDecoration: 'none', listStyleType: 'none'
                 }} >
-                <Link to={page.href} >   <Typography textAlign="center"
+                <Link to={page.href} style={{color: 'var(--secondary-color)', textDecoration: 'none'}} >   <Typography textAlign="center"
                  >{page.text}</Typography> </Link>
                 </MenuItem>
               ))}
@@ -136,10 +136,10 @@ function Header() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-            <Link to={page.href} key={page.id} >
+            <Link to={page.href} key={page.id} style={{textDecoration: 'none', color: 'inherit'}} >
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'var(--secondary-color)', display: 'block', textTransform: 'none', textDecoration: 'none', fontWeight: '500' } }
+                sx={{ my: 2, color: 'var(--secondary-color)', display: 'block', textTransform: 'none'} }
               >
                 {page.text}
               </Button>

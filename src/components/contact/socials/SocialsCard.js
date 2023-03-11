@@ -16,7 +16,10 @@ const SocialsCard = () => {
                 <div id="sc-top">
                     <div id="sc-top-left">
                         <p>Email </p>
-                        <a href="mailto: zeemudia@outlook.com" target="_blank" rel="noopener noreferrer">  <EmailIcon /> </a>
+                        <p>
+                        <a href="mailto: zeemudia@outlook.com" target="_blank" rel="noopener noreferrer">  zeemudia@outlook.com </a>
+                        </p>
+                        <a href="mailto: zeemudia@outlook.com" target="_blank" rel="noopener noreferrer" className="emailIcon">  <EmailIcon /> </a>
                     </div>
                     <div id="sc-top-right">
                         <div id="sm-icons-box">

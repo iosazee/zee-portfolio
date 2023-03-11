@@ -1,10 +1,7 @@
 #skillsBox {
     width: 100vw;
     min-height: 100vh;
-    background: linear-gradient( var(--tertiary-color-7) , var(--tertiary-color-14), var(--tertiary-color-14));
-    background: -moz-linear-gradient( var(--tertiary-color-7) , var(--tertiary-color-14), var(--tertiary-color-14));
-    background: -webkit-linear-gradient( var(--tertiary-color-7) , var(--tertiary-color-14), var(--tertiary-color-14));
-    background: -o-linear-gradient( var(--tertiary-color-7) , var(--tertiary-color-14), var(--tertiary-color-14));
+    background-color: var(--tertiary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
