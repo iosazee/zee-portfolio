@@ -3,7 +3,12 @@ import { Axios, db } from '../../../firebase/firebaseConfig'
 import './ContactForm.css'
 
 const ContactForm = () => {
-    const [formData, setFormData] = useState({})
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: ""
+    })
+    const [formSubmitMessage, setFormSubmitMessage] = useState("")
 
     const updateInput = e => {
         setFormData({
@@ -14,11 +19,17 @@ const ContactForm = () => {
     const handleSubmit = event => {
         event.preventDefault()
         sendEmail()
-        setFormData({
-        name: '',
-        email: '',
-        message: '',
-        })
+        if (formData.message.length <= 10){
+            setFormSubmitMessage("please enter in a valid message")
+        } else {
+            setFormSubmitMessage("Form submitted successfully");
+            setFormData({
+                name: "",
+                email: "",
+                message: ""
+            })
+        }
+       
     }
     const sendEmail = () => {
         Axios.post(
@@ -89,6 +100,7 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className='row' id='btnBox'>
+                    <p className='red'>{formSubmitMessage}</p>
                     <button type="submit" className='submitBtn'>Submit</button>
                 </div>
             </form>
