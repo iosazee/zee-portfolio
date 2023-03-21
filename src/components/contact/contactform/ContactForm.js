@@ -1,46 +1,55 @@
 import React, { useState } from 'react'
 import { Axios, db } from '../../../firebase/firebaseConfig'
-import './ContactForm.css'
+import Typography  from "@mui/material/Typography";
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Grid from '@mui/material/Grid'
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button'
+
+
 
 const ContactForm = () => {
-    const [formData, setFormData] = useState({
-        name: "",
+    const [contactInfo, setContactInfo] = useState({
+        firstName: "",
+        lastName: "",
         email: "",
         message: ""
     })
-    const [formSubmitMessage, setFormSubmitMessage] = useState("")
+    const [formResponseMessage, setformResponseMessage] = useState("")
 
-    const updateInput = e => {
-        setFormData({
-        ...formData,
+    const handleChange = e => {
+        setContactInfo({
+        ...contactInfo,
         [e.target.name]: e.target.value,
         })
     }
     const handleSubmit = event => {
         event.preventDefault()
         sendEmail()
-        if (formData.message.length <= 10){
-            setFormSubmitMessage("please enter in a valid message")
+        if (contactInfo.message.length <= 10){
+            setformResponseMessage("please enter in a valid message")
         } else {
-            setFormSubmitMessage("Form submitted successfully");
-            setFormData({
-                name: "",
+            setformResponseMessage("Form submitted successfully");
+            setContactInfo({
+                firstName: "",
+                lastName: "",
                 email: "",
                 message: ""
             })
         }
-       
     }
     const sendEmail = () => {
         Axios.post(
         'https://us-central1-zee-portfolio-9e5c5.cloudfunctions.net/submit',
-        formData
+        contactInfo
         )
         .then(res => {
             db.collection('emails').add({
-            name: formData.name,
-            email: formData.email,
-            message: formData.message,
+            firstName: contactInfo.firstName,
+            lastName: contactInfo.lastName,
+            email: contactInfo.email,
+            message: contactInfo.message,
             time: new Date(),
             })
         })
@@ -50,60 +59,76 @@ const ContactForm = () => {
     }
 
     return (
-        <section id='contactForm'>
-            <h2>Contact Form</h2>
-            <form onSubmit={handleSubmit} className="form">
-                <div className='row'>
-                    <div className='col-25'>
-                        <label htmlFor='name' >Your Name <sup>*</sup></label>
-                    </div>
-                    <div className='col-75'>
-                        <input
-                            type="text"
-                            name="name"
-                            id='name'
-                            placeholder="Name"
-                            onChange={updateInput}
-                            value={formData.name || ''}
-                        />
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col-25'>
-                        <label htmlFor='email'>Your Email <sup>*</sup></label>
-                    </div>
-                    <div className='col-75'>
-                        <input
-                            type="email"
-                            name="email"
-                            id='email'
-                            placeholder="Email"
-                            onChange={updateInput}
-                            value={formData.email || ''}
-                        />
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col-25'>
-                        <label htmlFor='message'>Message Me <sup>*</sup></label>
-                    </div>
-                    <div className='col-75'>
-                        <textarea
-                            type="text"
-                            name="message"
-                            id='message'
-                            placeholder="Message"
-                            onChange={updateInput}
-                            rows={10}
-                            value={formData.message || ''}
-                        ></textarea>
-                    </div>
-                </div>
-                <div className='row' id='btnBox'>
-                    <p className='red'>{formSubmitMessage}</p>
-                    <button type="submit" className='submitBtn'>Submit</button>
-                </div>
-            </form>
+        <section style={{marginBottom:25}}>
+            <Typography variant="h3" style={{marginTop:25}}>Contact Form</Typography>
+            <Card style={{ maxWidth:450, margin:"0 auto", padding:"20px 5px" }} >
+                <CardContent>
+                    <Typography gutterBottom ></Typography>
+                    <form onSubmit={handleSubmit}>
+                        <Grid container spacing={1}>
+                            <Grid xs={12} sm={6} item>
+                                <TextField
+                                    label='First Name'
+                                    placeholder='Enter your first name'
+                                    variant="outlined"
+                                    fullWidth
+                                    required
+                                    name="firstName"
+                                    value={contactInfo.firstName}
+                                    onChange={handleChange}
+                                />
+                            </Grid>
+                            <Grid xs={12} sm={6} item>
+                                <TextField
+                                    label='Last Name'
+                                    placeholder='Enter your last name'
+                                    variant="outlined"
+                                    fullWidth
+                                    required
+                                    name="lastName"
+                                    value={contactInfo.lastName}
+                                    onChange={handleChange}
+                                />
+                            </Grid>
+                            <Grid xs={12} item>
+                                <TextField
+                                    label='Email'
+                                    type='email'
+                                    placeholder='Enter your email address'
+                                    variant="outlined"
+                                    fullWidth
+                                    required
+                                    name="email"
+                                    value={contactInfo.email}
+                                    onChange={handleChange}
+                                />
+                            </Grid>
+                            <Grid xs={12} item>
+                                <TextField
+                                    label='Message'
+                                    placeholder='Type your message here'
+                                    variant="outlined"
+                                    fullWidth
+                                    required
+                                    name="message"
+                                    value={contactInfo.message}
+                                    onChange={handleChange}
+                                    multiline
+                                    rows={4}
+                                />
+                            </Grid>
+                            <Grid xs={12} item>
+                                <Typography gutterBottom variant="body2" component="p" color="red">{formResponseMessage}</Typography>
+                            </Grid>
+                            <Grid xs={12} item>
+                                <Button variant="contained" sx={{backgroundColor:"var(--primary-color-5)", ":hover": {backgroundColor: "var(--secondary-color)"}}} fullWidth type="submit" >
+                                    Submit
+                                </Button>
+                            </Grid>
+                        </Grid>
+                    </form>
+                </CardContent>
+            </Card>
         </section>
     )
 }
