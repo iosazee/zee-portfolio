@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zee-portfolio/static/css/main.37584c4d.css",
-    "main.js": "/zee-portfolio/static/js/main.c24bdedb.js",
+    "main.js": "/zee-portfolio/static/js/main.8f91fd08.js",
     "static/js/787.6c9eb26b.chunk.js": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js",
     "static/media/linux-cli.jpg": "/zee-portfolio/static/media/linux-cli.56ba10c592b581e377e3.jpg",
     "static/media/version-control.jpg": "/zee-portfolio/static/media/version-control.f94db12dd1851cec7562.jpg",
@@ -9,7 +9,7 @@
     "static/media/teamprofile.png": "/zee-portfolio/static/media/teamprofile.3861c1902bf3c93ffe8a.png",
     "static/media/zee.jpg": "/zee-portfolio/static/media/zee.b19e190213f202d0dedb.jpg",
     "static/media/littlelemon-mobile.jpg": "/zee-portfolio/static/media/littlelemon-mobile.0fd2d984439b9886c439.jpg",
-    "static/media/resume.pdf": "/zee-portfolio/static/media/resume.50aadb95994073a99246.pdf",
+    "static/media/resume.pdf": "/zee-portfolio/static/media/resume.158b621755a0b15a90b3.pdf",
     "static/media/shopping-app.png": "/zee-portfolio/static/media/shopping-app.0c6ff7ca346c4ad06073.png",
     "static/media/scrum-master-cert.jpg": "/zee-portfolio/static/media/scrum-master-cert.1bb6061c896f18ca2c1c.jpg",
     "static/media/portfolio-2.png": "/zee-portfolio/static/media/portfolio-2.1cf934eb849db8e47e25.png",
@@ -55,11 +55,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/zee-portfolio/index.html",
     "main.37584c4d.css.map": "/zee-portfolio/static/css/main.37584c4d.css.map",
-    "main.c24bdedb.js.map": "/zee-portfolio/static/js/main.c24bdedb.js.map",
+    "main.8f91fd08.js.map": "/zee-portfolio/static/js/main.8f91fd08.js.map",
     "787.6c9eb26b.chunk.js.map": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37584c4d.css",
-    "static/js/main.c24bdedb.js"
+    "static/js/main.8f91fd08.js"
   ]
 }
