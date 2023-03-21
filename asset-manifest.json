@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zee-portfolio/static/css/main.37584c4d.css",
-    "main.js": "/zee-portfolio/static/js/main.8f91fd08.js",
+    "main.css": "/zee-portfolio/static/css/main.7e20c467.css",
+    "main.js": "/zee-portfolio/static/js/main.29800f6f.js",
     "static/js/787.6c9eb26b.chunk.js": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js",
     "static/media/linux-cli.jpg": "/zee-portfolio/static/media/linux-cli.56ba10c592b581e377e3.jpg",
     "static/media/version-control.jpg": "/zee-portfolio/static/media/version-control.f94db12dd1851cec7562.jpg",
@@ -54,12 +54,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/zee-portfolio/index.html",
-    "main.37584c4d.css.map": "/zee-portfolio/static/css/main.37584c4d.css.map",
-    "main.8f91fd08.js.map": "/zee-portfolio/static/js/main.8f91fd08.js.map",
+    "main.7e20c467.css.map": "/zee-portfolio/static/css/main.7e20c467.css.map",
+    "main.29800f6f.js.map": "/zee-portfolio/static/js/main.29800f6f.js.map",
     "787.6c9eb26b.chunk.js.map": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37584c4d.css",
-    "static/js/main.8f91fd08.js"
+    "static/css/main.7e20c467.css",
+    "static/js/main.29800f6f.js"
   ]
 }
