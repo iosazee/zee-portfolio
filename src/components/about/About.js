@@ -39,7 +39,7 @@ const About = () => {
                         </div>
                         <div id="aboutMe-body">
                             <p>
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hey, my name is Zee Mudia. I am a Software Engineer and  a student of the EDx/Trilogy Bootcamp. I have also acquired certifications from the Meta's fullstack developer specialization hosted on Coursera. Prior to switching to Software Engineering, I had a ten years career as a dentist. However, in 2022, I decided to pursue my passion and interests in software development.
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hey, my name is Zee Mudia. I am a Software Engineer and a graduate of the EDx/Trilogy Bootcamp. I have also acquired certifications from the Meta's fullstack developer specialization hosted on Coursera. Prior to switching to Software Engineering, I had a ten years career as a dentist. However, in 2022, I decided to pursue my passion and interests in software development.
                             </p>
                             <p>
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My approach to life is to enjoy every moment, mind the little things while striving to do big things. I am a hardworking, tenacious, teamplayer who always strives to be better by being open to learning new things.
