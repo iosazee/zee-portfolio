@@ -24,7 +24,7 @@ const HomePage = () => {
                 <Route path="/zee-portfolio/projects" element={<Projects/>} />
                 <Route path="/zee-portfolio/skills" element={<Skills/>} />
                 <Route path="/zee-portfolio/contact" element={ <> <ContactForm/> </>} />
-                <Route path="*" element={<Navigate to='/' replace />} />
+                <Route path="*" element={<Navigate to='/zee-portfolio' replace />} />
             </Routes>
             <Footer />
         </section>
