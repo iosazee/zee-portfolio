@@ -6,9 +6,10 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import CloseIcon from '@mui/icons-material/Close';
 
 
-const MoreCard = ({img, title, desc, gitLink, liveLink, stack}) => {
+const MoreCard = ({img, title, desc, gitLink, liveLink, stack, hasLink}) => {
   return (
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -33,7 +34,9 @@ const MoreCard = ({img, title, desc, gitLink, liveLink, stack}) => {
                 </Link>
                 <Link href={liveLink} color="inherit">
                 <Typography component="small">
-                        <OpenInNewIcon />
+                    {
+                        hasLink ?  <OpenInNewIcon /> : <CloseIcon />
+                    }
                    </Typography>
                 </Link>
             </CardActions>

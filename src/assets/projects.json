@@ -2,17 +2,17 @@
 [
     {
         "id":    1,
-        "title": "LittleLemon",
-        "desc": "A web app for the customers of a fictional restaurant that enables them to view the menu on offer and reserve a table",
+        "title": "Shop-365",
+        "desc": "A fullstack e-commerce application that allows users to shop online for products.",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/litlelemon",
+        "gitLink": "https://github.com/iosazee/shop-365",
         "hasLink": true,
-        "link": "https://litlelemon.netlify.app/",
+        "link": "https://shop-365.netlify.app/",
         "isFeatured": true,
         "featureID": 0,
         "hasImg": true,
-        "img": "portfolio-1.png",
-        "techStack": ["React", "HTML", "CSS", "JavaScript"]
+        "img": "shot1.png",
+        "techStack": ["React", "Material UI", "Supabase", "React-Lazy-Load"]
     },
 
     {
@@ -73,15 +73,15 @@
 
     {
         "id":   6,
-        "title": "Shopping App",
-        "desc": "An ecommerce website which retrieves data from the backend, users are able to search for specific products, view details of the products and add products to cart",
+        "title": "Litlelemon",
+        "desc": "A web app for the customers of a fictional restaurant that enables them to view the menu on offer and reserve a table",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/shopping-app-project",
+        "gitLink": "https://github.com/iosazee/litlelemon",
         "hasLink": true,
-        "link": "https://shopping-web-app.netlify.app/",
+        "liveLink": "https://litlelemon.netlify.app/",
         "isFeatured": false,
         "hasImg": true,
-        "img": "shopping-app.png",
+        "img": "portfolio-1.png",
         "techStack": ["React", "HTML", "CSS"]
     },
 
