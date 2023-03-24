@@ -19,25 +19,25 @@ const pages = [
     {
         id: 1,
         text: <HomeIcon />,
-        href: "/"
+        href: "/zee-portfolio"
     },
 
     {
         id: 2,
         text: "Projects",
-        href: "/projects"
+        href: "/zee-portfolio/projects"
     },
 
     {
         id: 3,
         text: "Skills",
-        href: "/skills"
+        href: "/zee-portfolio/skills"
     },
 
     {
         id: 4,
         text:"Contact",
-        href: "/contact"
+        href: "/zee-portfolio/contact"
     },
 
 ];
