@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import About from "../about/About";
 import ContactForm from "../contact/contactform/ContactForm";
 import SocialsCard from "../contact/socials/SocialsCard";
@@ -21,6 +21,7 @@ const HomePage = () => {
                 <Route path="zee-portfolio/projects" element={<Projects/>} />
                 <Route path="zee-portfolio/skills" element={<Skills/>} />
                 <Route path="zee-portfolio/contact" element={ <> <ContactForm/> <SocialsCard/>  </>} />
+                <Route path="*" element={<Navigate to='/' replace />} />
             </Routes>
         </section>
     )
