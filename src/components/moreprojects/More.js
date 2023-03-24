@@ -19,6 +19,7 @@ const More = () => {
                                 title={item.title}
                                 desc={item.desc}
                                 gitLink={item.gitLink}
+                                hasLink={item.hasLink}
                                 liveLink={item.liveLink}
                                 stack={item.techStack.map((elm, index) =>  <Typography variant="body2" component="span" key={index}> {elm}  </Typography>)}
                              />
