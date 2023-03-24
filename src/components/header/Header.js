@@ -19,25 +19,25 @@ const pages = [
     {
         id: 1,
         text: <HomeIcon />,
-        href: "/zee-portfolio"
+        href: "/"
     },
 
     {
         id: 2,
         text: "Projects",
-        href: "/zee-portfolio/projects"
+        href: "/projects"
     },
 
     {
         id: 3,
         text: "Skills",
-        href: "/zee-portfolio/skills"
+        href: "/skills"
     },
 
     {
         id: 4,
         text:"Contact",
-        href: "/zee-portfolio/contact"
+        href: "/contact"
     },
 
 ];
@@ -65,7 +65,7 @@ function Header() {
           <Typography
             variant="h6"
             noWrap
-            href="/zee-portfolio"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
