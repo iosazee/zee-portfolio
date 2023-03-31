@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './FeatureCard.css'
 
 
@@ -7,7 +8,7 @@ const FeatureCard = ({img, title, desc, stack, gitLink, liveLink}) => {
     return (
         <section className='feature' >
             <div className='featureImgBox'>
-                <img
+                <LazyLoadImage
                     src={require(`../../assets/${img}`)}
                     alt="project"
                     className='featureImg'
