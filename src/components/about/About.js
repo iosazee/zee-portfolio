@@ -2,6 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import './About.css'
 import { useState, useEffect } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const About = () => {
@@ -23,7 +24,6 @@ const About = () => {
         updateQuote()
     }, [])
 
-  
     if (!data) return null
 
     return (
@@ -31,7 +31,7 @@ const About = () => {
             <Fade bottom delay={200} cascade distance={"60%"}>
                 <div id="aboutMe-box">
                     <div id="aboutMe-Img">
-                        <img src={require("../../assets/zee.jpg")} alt="headshot of zee mudia"/>
+                        <LazyLoadImage src={require("../../assets/zee.jpg")} alt="headshot of zee mudia"/>
                     </div>
                     <div id="aboutMe-text">
                         <div id="aboutMe-title">
