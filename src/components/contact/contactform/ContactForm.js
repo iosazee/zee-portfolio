@@ -74,7 +74,7 @@ function ContactForm() {
 
     return (
         <section style={{ marginBottom: 25 }}>
-            <Typography variant="h3" style={{ marginTop: 25 }}>Contact Us</Typography>
+            <Typography variant="h3" style={{ marginTop: 25 }}>Contact Me</Typography>
             <Card style={{ maxWidth: 450, margin: "0 auto", padding: "20px 5px" }}>
                 <CardContent>
                     <form onSubmit={submitForm} onReset={handleReset}>
@@ -125,6 +125,9 @@ function ContactForm() {
                                     variant="outlined"
                                     fullWidth
                                     required
+                                    multiline
+                                    maxRows={5}
+                                    minRows={5}
                                     value={formValues.message}
                                     onChange={handleChange}
                                 />
