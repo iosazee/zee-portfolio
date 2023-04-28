@@ -32,11 +32,12 @@
 
     {
         "id":   3,
-        "title": "Littlelemon API",
-        "desc": "Simple REST API that serves as the backend of a fictional restaurant and allow users of the app to perform different CRUD operations via HTTP requests to different endpoints.",
+        "title": "Shop365 API",
+        "desc": "An Ecommerce RESTful API backend which provides multiple endpoints for a frontend ecommerce site.",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/backend-dev-capstone",
-        "hasLink": false,
+        "gitLink": "https://github.com/iosazee/eeki/tree/main/backend",
+        "hasLink": true,
+        "link": "https://shop365api.store/",
         "isFeatured": true,
         "featureID": 2,
         "hasImg": true,
