@@ -5,14 +5,14 @@
         "title": "Shop-365",
         "desc": "A fullstack e-commerce application that allows users to shop online for products.",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/shop-365",
+        "gitLink": "https://github.com/iosazee/eeki",
         "hasLink": true,
-        "link": "https://shop-365.netlify.app/",
+        "link": "https://eeki.netlify.app/",
         "isFeatured": true,
         "featureID": 0,
         "hasImg": true,
         "img": "shot1.png",
-        "techStack": ["React", "Material UI", "Supabase", "React-Lazy-Load"]
+        "techStack": ["React JS", "Django", "AWS EC2"]
     },
 
     {
@@ -32,17 +32,17 @@
 
     {
         "id":   3,
-        "title": "Shop365 API",
-        "desc": "An Ecommerce RESTful API backend which provides multiple endpoints for a frontend ecommerce site.",
+        "title": "New Wine Assembly",
+        "desc": "A website for a religious assembly that provides useful and actionable information for the public",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/eeki/tree/main/backend",
+        "gitLink": "https://github.com/iosazee/newwine",
         "hasLink": true,
-        "link": "https://shop365api.store/",
+        "link": "https://newwine.netlify.app/",
         "isFeatured": true,
         "featureID": 2,
         "hasImg": true,
         "img": "portfolio-3.png",
-        "techStack": ["Django", "Python", "MySQL"]
+        "techStack": ["React", "Material UI", "Netlify Functions"]
     },
 
     {
