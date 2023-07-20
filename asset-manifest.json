@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/zee-portfolio/static/css/main.db197fda.css",
-    "main.js": "/zee-portfolio/static/js/main.93e156d7.js",
+    "main.js": "/zee-portfolio/static/js/main.dbe0a00c.js",
     "static/js/787.6c9eb26b.chunk.js": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js",
     "static/media/linux-cli.jpg": "/zee-portfolio/static/media/linux-cli.56ba10c592b581e377e3.jpg",
     "static/media/version-control.jpg": "/zee-portfolio/static/media/version-control.f94db12dd1851cec7562.jpg",
     "static/media/readme.png": "/zee-portfolio/static/media/readme.bcb1f93f9b6c15e8e75d.png",
     "static/media/teamprofile.png": "/zee-portfolio/static/media/teamprofile.3861c1902bf3c93ffe8a.png",
+    "static/media/portfolio-3.png": "/zee-portfolio/static/media/portfolio-3.628240bf4bf7486ce4bc.png",
     "static/media/shot1.png": "/zee-portfolio/static/media/shot1.d4a27350cf319744a3f7.png",
     "static/media/zee.jpg": "/zee-portfolio/static/media/zee.b19e190213f202d0dedb.jpg",
     "static/media/littlelemon-mobile.jpg": "/zee-portfolio/static/media/littlelemon-mobile.0fd2d984439b9886c439.jpg",
     "static/media/resume.pdf": "/zee-portfolio/static/media/resume.06efe56b51dbeb398fe2.pdf",
     "static/media/scrum-master-cert.jpg": "/zee-portfolio/static/media/scrum-master-cert.1bb6061c896f18ca2c1c.jpg",
     "static/media/portfolio-2.png": "/zee-portfolio/static/media/portfolio-2.1cf934eb849db8e47e25.png",
-    "static/media/portfolio-3.png": "/zee-portfolio/static/media/portfolio-3.d6d3801b3443dc39b05e.png",
     "static/media/meta-be-cert.jpg": "/zee-portfolio/static/media/meta-be-cert.26163da8295b4989683a.jpg",
     "static/media/meta-fe-cert.jpg": "/zee-portfolio/static/media/meta-fe-cert.8c62f65e2bef2f951dc2.jpg",
     "static/media/meta-fs-cert.png": "/zee-portfolio/static/media/meta-fs-cert.660c395216497980b02d.png",
@@ -55,11 +55,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/zee-portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/zee-portfolio/index.html",
     "main.db197fda.css.map": "/zee-portfolio/static/css/main.db197fda.css.map",
-    "main.93e156d7.js.map": "/zee-portfolio/static/js/main.93e156d7.js.map",
+    "main.dbe0a00c.js.map": "/zee-portfolio/static/js/main.dbe0a00c.js.map",
     "787.6c9eb26b.chunk.js.map": "/zee-portfolio/static/js/787.6c9eb26b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db197fda.css",
-    "static/js/main.93e156d7.js"
+    "static/js/main.dbe0a00c.js"
   ]
 }
