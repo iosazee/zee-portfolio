@@ -1,7 +1,6 @@
 {
   "name": "zee-portfolio",
   "version": "0.1.0",
-  "homepage": "https://iosazee.github.io/zee-portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
