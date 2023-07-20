@@ -16,7 +16,7 @@ const HomePage = () => {
     return (
         <section id="homepage">
             <Header />
-            <Routes basename="" >
+            <Routes >
                 <Route path="/zee-portfolio" element={<> <Hero /> <About />  </>}/>
                 <Route path="/zee-portfolio/projects" element={<Projects/>} />
                 <Route path="/zee-portfolio/skills" element={<Skills/>} />
