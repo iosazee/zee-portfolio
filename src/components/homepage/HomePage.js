@@ -17,10 +17,10 @@ const HomePage = () => {
         <section id="homepage">
             <Header />
             <Routes>
-                <Route path="/zee-portfolio" element={<> <Hero /> <About />  </>}/>
-                <Route path="/zee-portfolio/projects" element={<Projects/>} />
-                <Route path="/zee-portfolio/skills" element={<Skills/>} />
-                <Route path="/zee-portfolio/contact" element={ <> <ContactForm/> </>} />
+                <Route path="/" element={<> <Hero /> <About />  </>}/>
+                <Route path="/projects" element={<Projects/>} />
+                <Route path="/skills" element={<Skills/>} />
+                <Route path="/contact" element={ <> <ContactForm/> </>} />
                 <Route path="*" element={<Navigate to='/' replace />} />
             </Routes>
             <Footer />
