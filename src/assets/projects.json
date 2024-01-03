@@ -2,17 +2,17 @@
 [
     {
         "id":    1,
-        "title": "Shop-365",
+        "title": "shopIT",
         "desc": "A fullstack e-commerce application that allows users to shop online for products.",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/eeki",
+        "gitLink": "https://github.com/iosazee/milady-store",
         "hasLink": true,
-        "link": "https://eeki.netlify.app/",
+        "link": "https://eeki.shop/",
         "isFeatured": true,
         "featureID": 0,
         "hasImg": true,
         "img": "shot1.png",
-        "techStack": ["React JS", "Django", "AWS EC2"]
+        "techStack": ["React JS", "Django", "AWS", "Stripe"]
     },
 
     {
@@ -32,17 +32,17 @@
 
     {
         "id":   3,
-        "title": "New Wine Assembly",
-        "desc": "A website for a religious assembly that provides useful and actionable information for the public",
+        "title": "Expense Tracker App",
+        "desc": "A web app built to automate the book distribution process for a fictitious book distribution company",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/newwine",
+        "gitLink": "https://github.com/iosazee/RumiBooks",
         "hasLink": true,
-        "link": "https://newwine.netlify.app/",
+        "link": "https://rumibooks.site",
         "isFeatured": true,
         "featureID": 2,
         "hasImg": true,
         "img": "portfolio-3.png",
-        "techStack": ["React", "Material UI", "Netlify Functions"]
+        "techStack": ["Django", "Mysql", "AWS"]
     },
 
     {
