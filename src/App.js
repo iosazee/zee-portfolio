@@ -11,12 +11,12 @@ function App() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    const seenSplashScreen = localStorage.getItem('seenSplashScreen');
+    const seenSplashScreen = sessionStorage.getItem('seenSplashScreen');
 
     if (!seenSplashScreen) {
       const timer = setTimeout(() => {
         setLoaded(true);
-        localStorage.setItem('seenSplashScreen', true);
+        sessionStorage.setItem('seenSplashScreen', true);
       }, 5000);
       return () => clearTimeout(timer);
     } else {
