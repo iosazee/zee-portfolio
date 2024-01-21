@@ -11,7 +11,7 @@
         "isFeatured": true,
         "featureID": 0,
         "hasImg": true,
-        "img": "shot1.png",
+        "img": "shot1.webp",
         "techStack": ["React JS", "Django", "AWS", "Stripe"]
     },
 
@@ -32,17 +32,17 @@
 
     {
         "id":   3,
-        "title": "Expense Tracker App",
-        "desc": "A web app built to automate the book distribution process for a fictitious book distribution company",
+        "title": "New Wine Assembly",
+        "desc": "A website for a non-profit built with wordpress CMS",
         "hasGit": true,
-        "gitLink": "https://github.com/iosazee/RumiBooks",
+        "gitLink": "https://github.com/iosazee/newwine_wp",
         "hasLink": true,
-        "link": "https://rumibooks.site",
+        "link": "https://rccgnwa.church",
         "isFeatured": true,
         "featureID": 2,
         "hasImg": true,
-        "img": "portfolio-3.png",
-        "techStack": ["Django", "Mysql", "AWS"]
+        "img": "portfolio-3.webp",
+        "techStack": ["WordPress", "Mysql", "AWS"]
     },
 
     {
