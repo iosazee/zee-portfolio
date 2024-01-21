@@ -15,7 +15,7 @@ const Hero = () => {
                         <span className="alternateFont"> delivers utility</span> to end users
                     </h2>
                     <div>
-                    <Link to='/zee-portfolio/contact'>
+                    <Link to='/contact'>
                         <button className="getInTouch-Btn">Get In Touch</button>
                     </Link>
                     </div>
