@@ -5,25 +5,28 @@ import './App.css';
 import './assets/colors.css'
 
 
+
+
 function App() {
-
-  const [loaded, setLoaded] = useState(false)
-
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    const timer =   setTimeout(() => {
-      setLoaded(true)
-    }, 5000);
-    return () => clearTimeout(timer)
-  }, [])
+    const seenSplashScreen = localStorage.getItem('seenSplashScreen');
 
-
+    if (!seenSplashScreen) {
+      const timer = setTimeout(() => {
+        setLoaded(true);
+        localStorage.setItem('seenSplashScreen', true);
+      }, 5000);
+      return () => clearTimeout(timer);
+    } else {
+      setLoaded(true);
+    }
+  }, []);
 
   return (
     <section className="App">
-      {
-        loaded ? <HomePage /> : <SplashScreen />
-      }
+      {loaded ? <HomePage /> : <SplashScreen />}
     </section>
   );
 }
